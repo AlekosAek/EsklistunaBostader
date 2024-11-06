@@ -1,0 +1,12 @@
+.userLogin {
+  background-color: #f2f2f2;
+  grid-column: span 1/8;
+  gap: 1rem;
+  padding: 0.5rem;
+  display: flex;
+  width: 100%;
+}
+
+.userLogin aside {
+  color: #ee7824;
+}
