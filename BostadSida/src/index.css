@@ -3,6 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
   display: grid;
+  /* grid-template-columns: repeat(8, 1fr);
+  grid-column: span 1; */
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
@@ -30,19 +32,18 @@ body {
   /* display: flex; */
   /* place-items: center; */
   display: grid;
-  grid-template-columns: repeat(8, 1fr);
   /* min-width: 320px;
   min-height: 100vh; */
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-}
-
-section {
-  display: grid;
-  grid-column: span 1/8;
 }
 
 button {
