@@ -36,10 +36,11 @@ body {
   min-height: 100vh; */
 }
 
-section {
+/* section {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-}
+  grid-template-columns: repeat(auto-fit, minmax(10%, 10%));
+} */
+
 
 h1 {
   font-size: 3.2em;

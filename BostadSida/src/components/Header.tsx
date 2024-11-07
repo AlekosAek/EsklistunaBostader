@@ -7,10 +7,11 @@ export default function Header() {
   return (
     <>
        <header className="userLogin">
-        <aside id="register">
+        <aside></aside>
+        <aside >
            Registrera dig 
         </aside>
-        <aside id="login">
+        <aside>
           Mina sidor - Logga in
         </aside>
        </header>
