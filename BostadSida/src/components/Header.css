@@ -35,11 +35,44 @@
 .userLogin:nth-child(3) {
   grid-column: 8;
   /* Place in column 8 */
-  /* text-align: left; */
-  /* Align text to the left */
+}
+
+.userLogin:nth-child(4) {
+  grid-row: 1 grid-column: 8;
+  /* Place in column 8 */
 }
 
 /* Style the aside (if any) inside .userLogin */
 .userLogin aside a {
   color: #ee7824;
+}
+
+.about {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  align-content: flex-end;
+  /* Create 10 equal-width columns */
+}
+
+.about figure {
+  grid-column: 2 / 6;
+}
+
+.about figure img {
+  width: 60%;
+}
+
+.about aside {
+  grid-column: 7 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.about aside button {
+  background-color: #ee7824;
+  color: white;
+  height: 50%;
 }
