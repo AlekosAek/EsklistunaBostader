@@ -40,6 +40,6 @@
 }
 
 /* Style the aside (if any) inside .userLogin */
-.userLogin aside {
+.userLogin aside a {
   color: #ee7824;
 }
