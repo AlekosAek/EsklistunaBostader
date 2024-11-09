@@ -5,7 +5,7 @@ import "./header.css"
 export default function Header() {
   const location = useLocation(); // Get the current route location
 
-
+  
   return (
     <>
        <header className="userLogin">
@@ -27,12 +27,11 @@ export default function Header() {
                   <img src={bostadImage} alt="bostäder" />
               </Link>
         </figure>
-        <aside><Link to="/contact"><button>Kontakt</button> </Link><Link to="/about">
-             <button>Om oss</button> </Link>
+        <aside>
+          <Link to="/contact"><button>Kontakt</button> </Link>
+          <Link to="/about"><button>Om oss</button> </Link>
         </aside>
         </section>
-
-        
 
     </>
   );
