@@ -1,0 +1,78 @@
+footer {
+    background-image: url('../assets/bg-footer-etuna.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(245, 242, 242);
+    display: grid;
+    align-items: start;
+    /* Align all items to the top of their grid cell */
+    justify-items: center;
+    /* Center items horizontally within their cells */
+    gap: 2vw;
+    grid-template-columns: repeat(10, 1fr);
+    /* 10 equal columns */
+    padding: 2rem 0;
+    /* Optional: Adds space around the content */
+    position: relative;
+    /* Ensure proper placement inside the container */
+}
+
+/* Article styling */
+footer article {
+    padding-top: 8.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* Align article content to the start (left) */
+
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+
+footer article p {
+    margin: 0.1vh;
+    white-space: nowrap;
+    justify-content: flex-start;
+    /* Align article content to the start (left) */
+
+}
+
+/* Styling for the first child*/
+footer> :nth-child(1) {
+    grid-column: 1 / 2;
+    /* Spans columns 1 to 4 (4 columns) */
+    text-align: right;
+    align-self: start;
+    /* Align to the top of the grid cell */
+    justify-self: end;
+    /* Align to the right of the cell */
+}
+
+/* Styling for the second child (Username) */
+footer> :nth-child(2) {
+    grid-column: 3;
+    align-self: start;
+    /* Align to the top of the grid cell */
+    /* Align to the center of the cell */
+}
+
+/* Styling for the third child (Password) */
+footer> :nth-child(3) {
+    grid-column: 4;
+    /* Starts at column 7 */
+
+
+}
+
+footer> :nth-child(4) {
+    grid-column: 5 / 6;
+    /* Spans columns 7 to 10 (4 columns) */
+    align-self: start;
+    /* Align to the top of the grid cell */
+    justify-self: start;
+    /* Align to the left of the cell */
+}

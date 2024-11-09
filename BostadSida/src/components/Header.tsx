@@ -1,7 +1,7 @@
 import { NavLink, useLocation } from "react-router-dom";
 import { useNavigate, Link } from "react-router-dom";
 import bostadImage from '../assets/bostadEskilstuna.png';
-import "./Header.css"
+import "./header.css"
 export default function Header() {
   const location = useLocation(); // Get the current route location
 
@@ -31,6 +31,8 @@ export default function Header() {
              <button>Om oss</button> </Link>
         </aside>
         </section>
+
+        
 
     </>
   );
