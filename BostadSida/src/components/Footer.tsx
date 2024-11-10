@@ -39,7 +39,18 @@ const location = useLocation(); // Get the current route location
              <Link to="https://www.instagram.com/bostadvasteras/?short_redirect=1"><InstagramIcon /></Link>
              <Link to="https://www.facebook.com/bostadvasteras"><FacebookIcon /></Link>
         </figure>
-        
+        <hr />
+        <article>
+          <aside>
+               Copyright © 2017 Bostad Västerås AB |
+          </aside>
+          <aside>
+            <Link to="https://www.facebook.com/bostadvasteras">Platskarta </Link> |
+          </aside>
+          <aside>
+            <Link to="https://www.facebook.com/bostadvasteras">Webbplatsinformation</Link>
+          </aside>
+        </article>
     </footer>
     </>
   );

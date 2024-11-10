@@ -19,7 +19,7 @@ footer {
 
 /* Article styling */
 footer article {
-    padding-top: 8.5vh;
+    padding-top: 10vh;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -48,7 +48,7 @@ footer article p {
 
 /* Styling for the first child*/
 footer> :nth-child(1) {
-    grid-column: 1/2;
+    grid-column: 1/3;
     /* Spans columns 1 to 4 (4 columns) */
     text-align: right;
     align-self: start;
@@ -59,7 +59,7 @@ footer> :nth-child(1) {
 
 /* Styling for the second child (Username) */
 footer> :nth-child(2) {
-    grid-column: 3;
+    grid-column: 4;
     align-self: start;
     /* Align to the top of the grid cell */
     /* Align to the center of the cell */
@@ -67,14 +67,14 @@ footer> :nth-child(2) {
 
 /* Styling for the third child (Password) */
 footer> :nth-child(3) {
-    grid-column: 4;
+    grid-column: 5;
     /* Starts at column 7 */
 
 
 }
 
 footer> :nth-child(4) {
-    grid-column: 5 / 6;
+    grid-column: 6 / 7;
     /* Spans columns 7 to 10 (4 columns) */
     align-self: start;
     /* Align to the top of the grid cell */
@@ -83,11 +83,34 @@ footer> :nth-child(4) {
 }
 
 footer> :nth-child(5) {
-    grid-column: 7 / 8;
+    grid-column: 8 / 9;
     /* Spans columns 7 to 10 (4 columns) */
     align-self: center;
     /* Align to the top of the grid cell */
     display: flex;
-
+    gap: 1vw;
 }
 
+footer hr {
+    width: 100%;
+    background-color: #1b1a1a;
+    align-self: center;
+    grid-row: 2;
+    grid-column: 3 / 9;
+}
+
+
+
+
+footer> :nth-child(7) {
+    padding: 0;
+    width: 100%;
+    align-self: center;
+    grid-row: 3;
+    grid-column: 3 / 9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+    text-align: center;
+}
