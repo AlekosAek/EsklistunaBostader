@@ -53,7 +53,7 @@ function Header() {
             </li>
             <li>
               <Link to="/om-oss">
-                Om oss
+                Om ossdfdfd
               </Link>
             </li>
           </ul>
