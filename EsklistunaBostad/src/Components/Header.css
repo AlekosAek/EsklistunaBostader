@@ -1,0 +1,103 @@
+.userLogin {
+  background-color: #f2f2f2;
+  font-size: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Create 10 equal-width columns */
+  align-content: center;
+  grid-template-rows: 1fr; /* Only one row, ensuring they stay on the same line */
+  padding: 0.5rem;
+  height: 1rem;
+}
+
+/* Target first child (Login Form) */
+.userLogin > *:nth-child(1) {
+  grid-column: 1 / 6; /* Span from column 1 to column 6 */
+  text-align: right; /* Align text to the right */
+}
+
+/* Target second child (Username) */
+.userLogin > *:nth-child(2) {
+  grid-column: 7; /* Place in column 7 */
+  text-align: center; /* Align text to the center */
+}
+
+/* Target third child (Password) */
+.userLogin > *:nth-child(3) {
+  grid-column: 8; /* Place in column 8 */
+}
+
+/* Target fourth child */
+.userLogin > *:nth-child(4) {
+  grid-column: 8;
+  grid-row: 1;
+}
+
+/* Style the aside (if any) inside .userLogin */
+.userLogin aside a {
+  color: #ee7824;
+}
+
+/* About Section */
+.about {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr); /* Create 10 equal-width columns */
+  align-content: flex-end;
+}
+
+.about figure {
+  grid-column: 2 / 6;
+}
+
+.about figure img {
+  width: 60%;
+}
+
+.about aside {
+  grid-column: 7 / 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.15rem;
+}
+
+.about aside button {
+  background-color: #ee7824;
+  color: white;
+  height: 50%;
+}
+
+/* Style the navigation bar */
+.Navlink nav {
+  background-color: #ee7824;
+  padding: 1rem;
+
+}
+
+/* Remove default list styling and make the list inline */
+.Navlink ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin-left: 15em;
+  /* Center the entire nav content */
+}
+
+/* Style each list item */
+.Navlink li {
+  margin-right: 0.2em;
+
+}
+
+/* Style the links */
+.Navlink a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.Navlink a:hover {
+  color: #333; /* Optional: Change color on hover */
+}
