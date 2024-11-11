@@ -29,35 +29,35 @@ function Header() {
         </aside>
       </section>
       <section className="Navlink" >
-        <nav>
-          <ul>
-            <li>
-              <Link to="/" >
-                Hem
-              </Link>
+      <nav>
+      <ul> 
+        <li>
+          <Link to="/" >
+            Hem
+            </Link>
             </li>
-            <li>
-              <Link to="/student">
-                Student
-              </Link>
-            </li>
-            <li>
-              <Link to="/eskilstuna">
-                Eskilstuna
-              </Link>
-            </li>
-            <li>
-              <Link to="/mina-sidor">
-                Mina sidor
-              </Link>
-            </li>
-            <li>
-              <Link to="/om-oss">
-                Om ossdfdfd
-              </Link>
-            </li>
-          </ul>
-        </nav>
+        <li>
+          <Link to="/student">
+            Student
+          </Link>
+        </li>
+        <li>
+          <Link to="/eskilstuna">
+            Eskilstuna
+          </Link>
+        </li>
+        <li>
+          <Link to="/mina-sidor">
+            Mina sidor
+          </Link>
+        </li>
+        <li>
+          <Link to="/om-oss">
+            Om oss
+          </Link>
+        </li>
+      </ul>
+    </nav>
       </section>
     </>
   )
