@@ -16,22 +16,21 @@ function HomePage() {
         </div>
       </section>
       <section className="secondPartHomePage">
-        <section className="graduationSection" >
+        <section className="graduationSection1" >
           <img src={graduation} alt="graduation" />
           <p>Lediga studentlägenheter 66</p>
         </section>
-        <section className="graduationSection" >
+        <section className="graduationSection2" >
           <img src={graduation} alt="graduation" />
           <p>Logga in på</p>
           <p>Mina sidor</p>
         </section>
-        <section className="graduationSection" >
+        <section className="graduationSection3" >
           <img src={graduation} alt="graduation" />
           <p>Registera</p>
         </section>
         <section className="grid-1">
-
-
+    
         </section>
         <section className="grid-3">
 
