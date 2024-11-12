@@ -5,7 +5,7 @@ import "./css/NotFoundPage.css";
 const NotFound: React.FC = () => {
   // change title in browser to reflect current page
   useEffect(() => {
-    document.title = `Cocktail Wiki - Not Found`;
+    document.title = `Bostad esklistuna - Not Found`;
   }, []);
   return (
     <div className="not-found">

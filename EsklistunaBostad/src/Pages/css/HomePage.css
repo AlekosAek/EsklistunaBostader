@@ -1,7 +1,6 @@
 .homePageSection {
   position: relative;
   width: 100%;
-  max-width: 1800px;
   /* Optional: set a max-width for the container */
   margin: auto;
   display: flex;
@@ -12,8 +11,6 @@
   overflow: hidden;
   /* Ensures image doesn't overflow */
 }
-
-
 
 .graduationSection img {
   width: 100%;
@@ -55,10 +52,57 @@ h3 {
 .secondPartHomePage {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-}
+  grid-template-rows: auto auto auto auto;
+  padding-left: 15%;
+  padding-right: 15%;
 
+}
 
 
 .secondPartHomePage img {
   max-width: 21em;
+}
+
+.grid-1 {
+  margin-bottom: 1em;
+  grid-column: 1 / -1;
+  /* Span all columns */
+  grid-row: 2/3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grid-3 {
+  display: flex;
+  justify-content: space-between;
+  grid-column: 1 / -1;
+  /* Span all columns */
+  ;
+  grid-row: 3/4;
+  gap: 1em;
+}
+
+.e {
+  font-size:2em;
+  height:30vh;
+  background-image: url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\Studentområde.jpg);
+  padding: 1em;
+  color: white;
+
+}
+
+.f {
+  font-size:2em;
+  height:30vh;
+  background-image: url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\vem.jpg);
+  padding: 1em;
+
+}
+.g {
+  font-size:2em;
+  height:30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\trees.jpg);
+  color:white;
+  padding: 1em;
 }
