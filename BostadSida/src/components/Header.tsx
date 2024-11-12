@@ -32,7 +32,37 @@ export default function Header() {
           <Link to="/about"><button>Om oss</button> </Link>
         </aside>
         </section>
-
+        <section className="Navlink" >
+          <nav>
+          <ul> 
+            <li>
+              <Link to="/" >
+                Hem
+                </Link>
+                </li>
+            <li>
+              <Link to="/student">
+                Student
+              </Link>
+            </li>
+            <li>
+              <Link to="/eskilstuna">
+                Eskilstuna
+              </Link>
+            </li>
+            <li>
+              <Link to="/mina-sidor">
+                Mina sidor
+              </Link>
+            </li>
+            <li>
+              <Link to="/om-oss">
+                Om oss
+              </Link>
+            </li>
+          </ul>
+        </nav>
+      </section>
     </>
   );
 }

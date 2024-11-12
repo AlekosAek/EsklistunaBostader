@@ -76,3 +76,38 @@
   color: white;
   height: 50%;
 }
+
+.Navlink nav {
+  background-color: #ee7824;
+  padding: 1rem;
+
+}
+
+/* Remove default list styling and make the list inline */
+.Navlink ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  margin-left: 15em;
+  /* Center the entire nav content */
+}
+
+/* Style each list item */
+.Navlink li {
+  margin-right: 0.2em;
+
+}
+
+/* Style the links */
+.Navlink a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+
+}
+
+.Navlink a:hover {
+  color: #333;
+  /* Optional: Change color on hover */
+}
