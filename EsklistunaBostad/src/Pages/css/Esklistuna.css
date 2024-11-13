@@ -1,0 +1,25 @@
+.esklistunaPage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px; /* Limits the width of the content */
+  width: 100%;
+  margin: 0 auto; /* Centers the content horizontally */
+  padding: 2em; /* Adds padding on the sides */
+  text-align: left; /* Aligns all text to the left */
+}
+
+.esklistunaPage ul {
+  padding-left: 1.5em; /* Adds indentation for lists */
+  margin-bottom: 1em; /* Adds space after each list */
+}
+
+.esklistunaPage img {
+  max-width: 100%; /* Ensures image fits within the container */
+  height: auto;
+  margin-bottom: 1em; /* Adds space below the image */
+}
+
+.esklistunaPage p, .esklistunaPage h2 {
+  margin-bottom: 1em; /* Adds space between paragraphs and headings */
+}
