@@ -3,7 +3,8 @@ import { NavLink, useLocation } from "react-router-dom";
 import { useNavigate, Link } from "react-router-dom";
 import InstagramIcon from '@mui/icons-material/Instagram';
 import FacebookIcon from '@mui/icons-material/Facebook';
-import star from '../assets/eskilstuna-star.png';
+import catchme from "../assets/catchme.png";
+
 
 import "./footer.css";
 export default function Footer() {
@@ -14,7 +15,7 @@ const location = useLocation(); // Get the current route location
     <>
     <footer>
         <article>
-            
+            <img src = {catchme} className = "catchme" alt="Catch Me"/>
         </article>
         <article>
             <h3>Besöksadress</h3>
