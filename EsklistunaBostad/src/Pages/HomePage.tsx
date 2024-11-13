@@ -41,14 +41,13 @@ function HomePage() {
           <p>(bifoga den PDF-fil som du kan ladda ner på antagning.se)</p>
         </section>
 
-        <section
-          className="grid-3">
+        <section className="grid-3">
           <div className="e">
             <p>Nynyggda studentlägenheter  nära till högskolan</p>
             <h2>NORDSTJÄRNAN</h2>
           </div>
           <div className="f">
-          <h2>Vem kan söka</h2>
+            <h2>Vem kan söka</h2>
             <p>Läs om vilka som har mölighet att söka studentlägenhet</p>
           </div>
           <div className="g">
@@ -56,12 +55,16 @@ function HomePage() {
           </div>
         </section>
         <section className="grid-2">
-          <p>cdacda</p>
-          <p>ccadca</p>
+          <div className="a">
+            <p>Erbjudande</p>
+          </div>
+          <div className="b">
+            <p>Så söker du</p>
+          </div>
         </section>
+
       </section>
     </>
-
   );
 }
 

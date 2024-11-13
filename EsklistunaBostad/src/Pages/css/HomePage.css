@@ -83,26 +83,58 @@ h3 {
   gap: 1em;
 }
 
+.grid-2 {
+margin-top: 2em;
+  grid-column: 1 / -1;
+  grid-row: 4/5;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+
+}
+
 .e {
-  font-size:2em;
-  height:30vh;
+  font-size: 2em;
+  height: 30vh;
   background-image: url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\Studentområde.jpg);
   padding: 1em;
   color: white;
+  background-repeat: no-repeat;
 
 }
 
 .f {
-  font-size:2em;
-  height:30vh;
+  font-size: 2em;
+  height: 30vh;
   background-image: url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\vem.jpg);
   padding: 1em;
+  background-repeat: no-repeat;
 
 }
+
 .g {
-  font-size:2em;
-  height:30vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),  url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\trees.jpg);
-  color:white;
+  font-size: 2em;
+  height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\trees.jpg);
+  color: white;
   padding: 1em;
+  background-repeat: no-repeat;
+
+}
+
+.a {
+  font-size: 2em;
+  height: 30vh;
+  background-image: url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\Erbjudande.jpg);
+  padding: 1em;
+  background-repeat: no-repeat;
+
+}
+
+.b {
+  font-size: 2em;
+  height: 30vh;
+  background-image: url(C:\Users\lenis\EsklistunaBostade\EsklistunaBostad\src\assets\funkarDet.jpg);
+  padding: 1em;
+  background-repeat: no-repeat;
+
 }
