@@ -75,7 +75,7 @@ function Esklistuna() {
         </p>
         <ul>
           <li> <a href="https://www.mdu.se/student/under-studietiden/campus-och-lokaler/mdu-bussen" target="_blank" rel="noopener noreferrer">    Mdu.se</a>
-         
+
           </li>
         </ul>
       </section >

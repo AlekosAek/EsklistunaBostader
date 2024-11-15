@@ -9,9 +9,20 @@
   text-align: left; /* Aligns all text to the left */
 }
 
+.esklistunaPage h2{
+  align-self: flex-start;
+
+}
 .esklistunaPage ul {
   padding-left: 1.5em; /* Adds indentation for lists */
   margin-bottom: 1em; /* Adds space after each list */
+  padding-right: 25em;
+  align-self: flex-start;
+}
+
+
+.esklistunaPage p{
+  align-self: flex-start;
 }
 
 .esklistunaPage img {
