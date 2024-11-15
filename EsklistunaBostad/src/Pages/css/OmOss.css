@@ -35,3 +35,8 @@
     text-wrap: nowrap;
     margin: 0.5vh;
 }
+
+.rightmMenu {
+    grid-column: 3/8;
+
+}

@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from "react-router-dom";
 import "./css/OmOss.css";
+import "./css/Esklistuna.css";
 
 function OmOss() {
   return (
@@ -17,6 +18,33 @@ function OmOss() {
          </aside>
            <hr />
        </menu>
+       <article className="rightmMenu">
+        <h1>Om Bostad Eskilstuna</h1>
+        
+        <h2>Bostad Eskilstuna</h2>
+        <p>
+        Bostad Eskilstuna är en marknadsplats och en informationskanal för de som söker studentbostad i Eskilstuna.
+
+        Vi har specialiserat oss på att marknadsföra, informera, förmedla och hantera bostadsutbud och -sökande. Vi samarbetar med fastighetsägare, byggföretag, Eskilstuna kommun och andra bostadsaktörer för att på ett effektivt sätt erbjuda intresserade ett nytt boende.
+
+        Bostad Eskilstuna drivs av Bostad Västerås AB som erbjuder liknande tjänster i Västerås.  
+       </p>
+        <h2>
+        Vi är till för dig
+        </h2>
+        <p>
+        Undrar du över något, är du alltid välkommen att fråga oss. Vi kan det mesta och litet till! Funderar du på att byta bostad eller bara vill informera dig om bostadsmarknaden för studenter i Eskilstuna hör du av dig till oss via e-mail, telefon eller våra sociala medier.
+        
+        </p>
+        
+        <h2>
+        Vill du som fastighetsägare ha hjälp?
+        </h2>
+        <p>
+        Här kan du läsa vilken hjälp du kan få.
+        </p>
+        Läs mer
+       </article>
     </section>
   )
 }
