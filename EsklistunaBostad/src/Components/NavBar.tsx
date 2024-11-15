@@ -29,7 +29,7 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="/om-oss">
+              <Link to="/OmOss">
                 Om oss
               </Link>
             </li>
