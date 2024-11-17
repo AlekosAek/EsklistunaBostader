@@ -24,12 +24,12 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="/mina-sidor">
+              <Link to="/MinaSidor">
                 Mina sidor
               </Link>
             </li>
             <li>
-              <Link to="/om-oss">
+              <Link to="/OmOss">
                 Om oss
               </Link>
             </li>

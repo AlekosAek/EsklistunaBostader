@@ -24,7 +24,7 @@ function Header() {
             <img src={bostadImage} alt="bostäder" />
           </Link>
         </figure>
-        <aside><Link to="/contact"><button>Kontakt</button> </Link><Link to="/about">
+        <aside><Link to="/contact"><button>Kontakt</button> </Link><Link to="/OmOss">
           <button>Om oss</button> </Link>
         </aside>
       </section>
