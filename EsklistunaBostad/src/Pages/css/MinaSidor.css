@@ -46,3 +46,9 @@ a {
     padding: 1vw;
     border-radius: 0.5vw;
 }
+
+label {
+    display: block;
+    height: 0.5vh;
+    margin-top: 1vh;
+}
