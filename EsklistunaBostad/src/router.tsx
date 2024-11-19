@@ -10,6 +10,7 @@ import OmOss from "./Pages/OmOss";
 
 
 
+
 export const router = createBrowserRouter(
   createRoutesFromElements(
     <>
@@ -19,6 +20,7 @@ export const router = createBrowserRouter(
         <Route path="/Esklistuna" element={<Esklistuna />} />
         <Route path="/MinaSidor" element={<MinaSidor />} />
         <Route path="/OmOss" element={<OmOss/>} />
+        <Route path="/mina-sidor" element={<MinaSidor/>} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </>

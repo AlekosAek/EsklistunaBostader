@@ -1,0 +1,48 @@
+.about {
+    display: grid;
+    align-items: start;
+    /* Align all items to the top of their grid cell */
+    justify-items: center;
+    /* Center items horizontally within their cells */
+    gap: 2vw;
+    grid-template-columns: repeat(10, 1fr);
+    /* 10 equal columns */
+    padding: 2rem 0;
+    /* Optional: Adds space around the content */
+    position: relative;
+    /* Ensure proper placement inside the container */
+}
+
+
+.empty {
+    grid-column: 1/2;
+
+}
+
+.menu {
+    grid-column: 2/3;
+    /* Align to the right of the cell */
+    justify-content: flex-start;
+    color: #ee7824;
+    width: 20vw;
+}
+
+a {
+    color: #ee7824;
+    text-decoration: none;
+    font-weight: lighter;
+    text-wrap: nowrap;
+    margin: 0.5vh;
+}
+
+.right {
+    grid-column: 3/6;
+
+}
+
+.login {
+    grid-column: 6/8;
+    background-color: #f2f2f2;
+    padding: 1vw;
+    border-radius: 0.5vw;
+}

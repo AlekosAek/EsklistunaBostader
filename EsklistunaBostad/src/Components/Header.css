@@ -63,10 +63,11 @@
 
 .about aside {
   grid-column: 7 / 9;
-  display: flex;
+  /* display: flex;
   /* justify-content: center; */
   align-items: center;
   gap: 0.15rem;
+  */
 }
 
 .about aside button {
