@@ -1,7 +1,6 @@
 .Navlink nav {
-  background-color: #ee7824;
+  background-image: linear-gradient(to left, rgba(140, 0, 255, 0.5), white 0%, rgba(140, 0, 255), rgb(0, 229, 166));
   padding: 1rem;
-
 }
 
 /* Remove default list styling and make the list inline */
@@ -22,12 +21,14 @@
 
 /* Style the links */
 .Navlink a {
-  color: white;
   text-decoration: none;
   font-weight: bold;
 
 }
 
 .Navlink a:hover {
-  color: #333; /* Optional: Change color on hover */
+  color: rgb(0, 229, 167);
+  /* Change text color on hover */
+  text-decoration: underline;
+  /* Apply a double underline on hover */
 }

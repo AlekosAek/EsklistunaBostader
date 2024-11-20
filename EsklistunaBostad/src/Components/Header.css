@@ -1,6 +1,5 @@
 .userLogin {
-  background-color: #f2f2f2;
-  font-size: 0.75rem;
+  background-color: #00e5a73b;
   display: grid;
   grid-template-columns: repeat(10, 1fr);
   /* Create 10 equal-width columns */
@@ -41,7 +40,7 @@
 
 /* Style the aside (if any) inside .userLogin */
 .userLogin aside a {
-  color: #ee7824;
+  color: rgb(140, 0, 255);
 }
 
 /* About Section */
@@ -71,14 +70,27 @@
 }
 
 .about aside button {
-  background-color: #ee7824;
+  background-color: rgb(140, 0, 255);
+  /* Correct RGB color syntax */
   color: white;
-  height: 50%;
+  /* Correct hex color syntax */
+  border-radius: 0.25vw;
+  border: 0px;
+  padding: 0.75vw;
+}
+
+.about aside button:hover {
+  background-color: #00e5a7;
+  /* Correct hex color syntax */
+  color: rgb(140, 0, 255);
+  /* Text color when hovered */
+  border: 0.1vw solid rgb(140, 0, 255);
+  /* Border with 2px width and solid color */
 }
 
 /* Style the navigation bar */
 .Navlink nav {
-  background-color: #ee7824;
+  background-color: #7124ee;
   padding: 1rem;
 
 }
