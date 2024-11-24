@@ -1,47 +1,60 @@
 .userLogin {
-  background-color: #f2f2f2;
-  font-size: 0.75rem;
+  background-color: #00e5a73b;
   display: grid;
-  grid-template-columns: repeat(10, 1fr); /* Create 10 equal-width columns */
+  grid-template-columns: repeat(10, 1fr);
+  /* Create 10 equal-width columns */
   align-content: center;
-  grid-template-rows: 1fr; /* Only one row, ensuring they stay on the same line */
+  grid-template-rows: 1fr;
+  /* Only one row, ensuring they stay on the same line */
+  padding: 0.5rem;
+  height: 1rem;
+}
+.userLogin>*:nth-child(1) {
+  grid-column: 1 / 6;
+  /* Span from column 1 to column 6 */
+  text-align: right;
+  /* Align text to the right */
+}
+
+.userLogin {
+  background-color: #00e5a73b;
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  /* Create 10 equal-width columns */
+  align-content: center;
+  grid-template-rows: 1fr;
+  /* Only one row, ensuring they stay on the same line */
   padding: 0.5rem;
   height: 1rem;
 }
 
 /* Target first child (Login Form) */
-.userLogin > *:nth-child(1) {
-  grid-column: 1 / 6; /* Span from column 1 to column 6 */
-  text-align: right; /* Align text to the right */
+.userLogin>*:nth-child(1) {
+  grid-column: 1 / 6;
+  /* Span from column 1 to column 6 */
+  text-align: right;
+  /* Align text to the right */
 }
 
 /* Target second child (Username) */
-.userLogin > *:nth-child(2) {
-  grid-column: 7; /* Place in column 7 */
-  text-align: center; /* Align text to the center */
+.userLogin>*:nth-child(2) {
+  grid-column: 7;
+  /* Place in column 7 */
+  text-align: center;
+  /* Align text to the center */
 }
 
 /* Target third child (Password) */
-.userLogin > *:nth-child(3) {
-  grid-column: 8; /* Place in column 8 */
-}
-
-/* Target fourth child */
-.userLogin > *:nth-child(4) {
+.userLogin>*:nth-child(3) {
   grid-column: 8;
-  grid-row: 1;
+  /* Place in column 8 */
 }
 
-/* Style the aside (if any) inside .userLogin */
-.userLogin aside a {
-  color: #ee7824;
-}
-
-/* About Section */
 .about {
   margin-top: 2rem;
   display: grid;
-  grid-template-columns: repeat(10, 1fr); /* Create 10 equal-width columns */
+  grid-template-columns: repeat(10, 1fr);
+  /* Create 10 equal-width columns */
   align-content: flex-end;
 }
 
@@ -49,32 +62,39 @@
   grid-column: 2 / 6;
 }
 
-.about figure img {
-  width: 60%;
-}
-
 .about aside {
   grid-column: 7 / 9;
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  /* justify-content: center; */
   align-items: center;
   gap: 0.15rem;
 }
 
 .about aside button {
-  background-color: #ee7824;
+  background-color: rgb(140, 0, 255);
+  /* Correct RGB color syntax */
   color: white;
-  height: 50%;
+  /* Correct hex color syntax */
+  border-radius: 0.25vw;
+  border: 0px;
+  padding: 0.75vw;
 }
 
-/* Style the navigation bar */
+.about aside button:hover {
+  background-color: #00e5a7;
+  /* Correct hex color syntax */
+  color: rgb(140, 0, 255);
+  /* Text color when hovered */
+  border: 0.1vw solid rgb(140, 0, 255);
+  /* Border with 2px width and solid color */
+}
+
 .Navlink nav {
-  background-color: #ee7824;
+  background-color: #7124ee;
   padding: 1rem;
 
 }
 
-/* Remove default list styling and make the list inline */
 .Navlink ul {
   list-style: none;
   display: flex;
@@ -84,13 +104,11 @@
   /* Center the entire nav content */
 }
 
-/* Style each list item */
 .Navlink li {
   margin-right: 0.2em;
 
 }
 
-/* Style the links */
 .Navlink a {
   color: white;
   text-decoration: none;
@@ -98,6 +116,8 @@
 
 }
 
+
 .Navlink a:hover {
-  color: #333; /* Optional: Change color on hover */
+  color: #333;
+  /* Optional: Change color on hover */
 }
