@@ -6,7 +6,7 @@ function Header() {
   return (
     <>
       <header className="userLogin">
-        <aside></aside>
+        <aside className="first"></aside>
         <aside >
           <Link to="/register">
             Registrera dig

@@ -1,12 +1,13 @@
 import { Link } from "react-router-dom";
-import './Footer.css'
+import './Footer.css';
+import catchme from "../assets/catchme.png";
 
 function Footer() {
   return (
     <>
       <footer>
         <article>
-
+            <img src = {catchme} className = "catchme" alt="Catch Me"/>
         </article>
         <article>
           <h3>Besöksadress</h3>

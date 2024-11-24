@@ -24,7 +24,7 @@ function NavBar() {
               </Link>
             </li>
             <li>
-              <Link to="/MinaSidor">
+              <Link to="/mina-sidor">
                 Mina sidor
               </Link>
             </li>
